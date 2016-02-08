@@ -25,9 +25,27 @@
     <a href="linkedin.com"><img src="linkedin_image.jpg"></a>
     <a href="github.com/bplindgren"><img src="github_image.jpg"></a>
   <article>
-    <h3>Exploring the differences between Margin, Padding and Border</h3>
-    <p>This is where the blog post content goes</p>
+    <h2>Exploring the Differences between Margin, Padding and Border</h2>
+    <p>An important concept to understand in HTML and CSS is the Box model. Every element on a page can be considered to be its own box, with padding, border, and margins around it. Though they are all white space around the element they serve different purposes.
+
+<h3>Content</h3>
+  <p>The content is what actually appears on a page, whether it be text, a photo or diagram. The padding, border and margins are what surrounds the content.</p>
+<h3>Padding</h3>
+  <p>Padding is the whitespace immediately surrounding the content. The width of the padding can vary according to specifications, and can be uniform on all sides or set to different sizes on the top, bottom, left and right. Padding does not go away but it can be set to zero so as to not be visible.</p>
+<h3>Border</h3>
+  <p>Borders are the visible lines that surround the content and padding. By default borders are not visible but can be added with CSS. They can be either a solid line or dashed, with various options for color, width, and border radius to make the corners curved. Borders can also be specified for all sides or just the top, bottom, left or right side. </p>
+<h3>Margin</h3>
+  <p>The margin is the whitespace that goes around the border and is what separates each element from each other. Like padding, it can be set uniformly on all sides or can be customized. One important difference to note is that vertical margins collapse, when elements are stacked one after the other. For example, if each element has a margin of 5px, instead of creating 10px of space between paragraphs the space is limited to the 5px. This is automatic so that when multiple paragraphs follow each other, they all have the same amount of margin spacing between them as the top and bottom, without having to edit each element’s margin.</p>
+<h4>Example of CSS styling:</h4>
+  <p>div {
+    border: 2px solid black;
+    margin:  5px 5px 5px 5px;
+    padding: 2px 0px 2px 0px;
+    }</p>
+
+<h4>The Box Model</h4>
+<div><a href="https://github.com/cfcrawford/cfcrawford.github.io/blob/master/imgs/box-model.png"></a></div>
 </article>
 <footer>
-  <p>Name, Contact Info, Copyright</p>
+  <p>Camila Crawford &amp 2016</p>
 </footer>
