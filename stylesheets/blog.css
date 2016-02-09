@@ -67,7 +67,7 @@ aside ul li {
 aside {
   background-color: white;
   float: left;
-  width: 15%;
+
   border: 2px solid black;
   padding: 1px;
   margin: 20px;
@@ -75,8 +75,13 @@ aside {
 
 aside > ul {
   list-style-position: inside;
+  margin-right: 50px;
 }
 
+aside > ul > li {
+  padding-bottom: 10px;
+  margin-right: 50px;
+}
 
 div {
   background-color: #99ccff;
@@ -93,6 +98,16 @@ a > img {
 #photo {
   background-color: white;
   float: left;
+}
+
+.blog-post {
+  background-color: white;
+  margin: 20px;
+  border: 2px solid black;
+}
+
+.blog-aside {
+  float: right;
 }
 
 section {
