@@ -81,7 +81,7 @@ aside > ul {
 div {
   background-color: #99ccff;
   float: right;
-  margin: 20px;
+  margin: 20px 10px 10px 10px;
   padding-left: 15px;
   padding-right: 15px;
 }
